@@ -1,13 +1,13 @@
 {
     "app-id" : "com.github.VocalPodcastProject.vocal",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "42",
+    "runtime-version" : "45",
     "sdk" : "org.gnome.Sdk",
     "command" : "vocal",
     "finish-args" : [
         "--share=network",
         "--share=ipc",
-        "--socket=pulseaudio",
+        "--socket=pipewire",
         "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland",
@@ -45,7 +45,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "file:///home/nathan/Projects/Vocal"
+                    "url" : "file:///home/johnathan/Projects/Vocal"
                 }
             ]
         }
